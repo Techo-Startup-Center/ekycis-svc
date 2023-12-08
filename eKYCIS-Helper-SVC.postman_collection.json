@@ -265,7 +265,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"type\": \"ekyc_interop_auth_v1\",\r\n    \"template\": \"LOGIN\",\r\n    \"auth_id\": \"b48b4a69-3f69-4f12-bfa5-df28612261610\",\r\n    \"url\": \"https://ekycis-demo.svathana.com/auth\",\r\n    \"iss\": \"ekycis-demo.svathana.com\",\r\n    \"iat\": 1702018561,\r\n    \"exp\": 1702104961\r\n}",
+							"raw": "{\r\n    \"type\": \"ekyc_interop_auth_v1\",\r\n    \"template\": \"LOGIN\",\r\n    \"auth_id\": \"b48b4a69-3f69-4f12-bfa5-df28612261610\",\r\n    \"exchange_mode\": \"DIRECT_API\",\r\n    \"url\": \"https://ekycis-demo.svathana.com/auth\",\r\n    \"iss\": \"ekycis-demo.svathana.com\",\r\n    \"iat\": 1702018561,\r\n    \"exp\": 1702104961\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"

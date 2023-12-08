@@ -54,6 +54,7 @@ describe("POST generate auth token, create fetch payload and verify fetch payloa
         template: "LOGIN",
         auth_id: uuidv4(),
         url: "https://ekycis-demo.svathana.com/auth",
+        exchange_mode: "DIRECT_API",
         iss: "ekycis-demo.svathana.com",
         iat: moment().unix(),
         exp: moment().add(1, "day").unix(),
