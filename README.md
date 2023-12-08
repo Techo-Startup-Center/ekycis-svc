@@ -3,8 +3,8 @@
 This service is create to help developer getting start integrate with eKYCIS standard implementation including:
 
 - Generate and verify request token
-- Convert attestation from and to various tier of eKYC standard template through obfuscation
 - Generate and verify fetch signature
+- Convert attestation from and to various tier of eKYC standard template through obfuscation
 
 ## Elliptic Curve Keypair and DNS-TXT
 
@@ -28,3 +28,13 @@ Add the output to DNS setting of your issuer domain
 `TXT   sub.example.com    "OUTPUT_OF_DNS_TXT_RECORD"`
 
 You can add multiple keys into domain for flexibility over the keys rotation.
+
+## Helper Service
+
+To get start please create environment variables as state in `.env.example`
+
+`npm install` & `npm start`
+
+To test the service, please import `eKYCIS-Helper-SVC.postman_collection.json` the sample postman collection into your postman.
+
+If you have any questions, please contact `sereyvathana.tum@techostartup.center`
